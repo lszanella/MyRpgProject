@@ -13,7 +13,7 @@ public class Player_Health : MonoBehaviour
         healthText.text = "HP: "+currentHealth+" / "+maxHealth;
     }
 
-    public void changeHealth(int amount){
+    public void ChangeHealth(int amount){
         currentHealth += amount;
         healthTextAnim.Play("TextUpdate");
         healthText.text = "HP: "+currentHealth+" / "+maxHealth;
